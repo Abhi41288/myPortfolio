@@ -3,12 +3,14 @@ import React from 'react';
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
+import {ProfilePic} from '../../constants/constants';
 
 const Hero = (props) => (
   <Section row nopadding>
-    <LeftSection>
+    <LeftSection>    
       <SectionTitle main center>
-        Welcome to <br />
+      <img src={ProfilePic} style={{width: '30rem',height: '20rem'}}/>
+        Welcome to 
         My Profile
       </SectionTitle>
       <SectionText>

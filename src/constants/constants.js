@@ -20,7 +20,7 @@ export const projects = [
   {
     title: 'AI News Application',
     description: "This Application gives you latest news on voice command build with React and alan Ai.",
-      image: '/images/3.jpg',
+      image: '/images/3.png',
       tags: ['React', 'JavaScript'],
     source: 'https://github.com/Abhi41288/ai_news_application_with_voice_command',
     visit: 'https://ai-news-application-8297f.web.app',
@@ -29,7 +29,7 @@ export const projects = [
   {
     title: 'Covid19 global Tracker',
     description: "This application helps to monitor the covid19 pandemic globally,gives a overview of global contaminated data.",
-    image: '/images/4.jpg',
+    image: '/images/4.png',
     tags: ['React', 'JavaScript'],
     source: 'https://github.com/Abhi41288/react-covid-19-tracker-application',
     visit: 'https://covid19-tracker-2e3d0.web.app',
@@ -42,3 +42,5 @@ export const TimeLineData = [
   { year: 2018, text: 'Worked as Executive Engineer in Continental Automotive Ltd', },
   { year: 2021, text: 'Currently working as JavaScript/React developer at Cognizant Technologies', },  
 ];
+
+export const ProfilePic = '/images/abhi.jpg';
